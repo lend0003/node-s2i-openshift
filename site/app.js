@@ -52,11 +52,11 @@ app.get('/info', function(req, res) {
   if (CURRENTMODE == MODE.TEST) {
     patientdata = {
       "personal": {
-        "name": "Ralph Lauren",
-        "age": 48,
+        "name": "Burle Edwards",
+        "age": 78,
         "gender": "male",
-        "street": "34 Main Street",
-        "city": "Toronto",
+        "street": "1234 Main Street",
+        "city": "Wichita",
         "zipcode": "12345"
       },
       "medications": ["Metoprolol", "ACE inhibitors", "Vitamin D"],
